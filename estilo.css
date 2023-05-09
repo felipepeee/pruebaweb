@@ -1,47 +1,58 @@
 body {
-    background-color: #8ede9b;
+    background: rgb(148,42,42);
+background: linear-gradient(180deg, rgba(148,42,42,1) 46%, rgba(0,0,0,1) 50%);
     /* color de fondo de toda la página */
-    color: #5521549e;
+    color: #ffffff;
     /* color de letra de toda la página */
 }
+
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 900; /* peso del contorno de la letra */
+    font-weight: 900;
+    /* peso del contorno de la letra */
 }
-picture {
+
+img {
     display: flex;
     justify-content: center;
 }
+
 img {
-    width: 20%; /*  width: ancho / height: alto*/ 
+    width: 10%;
+    
+    /*  width: ancho / height: alto*/
 }
 
 .boton {
-    text-decoration: none; /* Eliminamos el subrayado del enlace */
-    color: #000000;
-    border: 2px solid rgb(0, 38, 174);
-    padding: 5px; /* margen interior */
+    text-decoration: none;
+    /* Eliminamos el subrayado del enlace */
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    /* margen interior */
     border-radius: 5px;
     display: inline-block;
-    
+
 }
-.boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
-    background-color: rgb(44, 37, 27);
+
+.boton:hover {
+    /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: rgb(21, 6, 29);
     color: #ff0000;
 }
+
 header ul li {
-    display: inline-block; /*una lista para q los botones esten orisontal */
+    display: inline-block;
+    /*una lista para q los botones esten orisontal */
 
 }
 
 h2 {
     font-weight: 900;
 }
+ul{
+    list-style: none;
+    justify-content: center;
 
-
-
-
-
-
-
+}
