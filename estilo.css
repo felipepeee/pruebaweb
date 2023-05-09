@@ -1,39 +1,43 @@
 body {
-    background-color: #5d00a4;
+    background-color: #8ede9b;
     /* color de fondo de toda la página */
-    color: #f1f1f1;
+    color: #5521549e;
     /* color de letra de toda la página */
 }
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 1200; /* peso del contorno de la letra */
+    font-weight: 900; /* peso del contorno de la letra */
 }
 picture {
     display: flex;
     justify-content: center;
 }
-picture img {
-    width: 30%; /*  width: ancho / height: alto*/ 
+img {
+    width: 20%; /*  width: ancho / height: alto*/ 
 }
 
 .boton {
     text-decoration: none; /* Eliminamos el subrayado del enlace */
-    color: #b303ff;
-    border: 2px solid rgb(255, 179, 0);
+    color: #000000;
+    border: 2px solid rgb(0, 38, 174);
     padding: 5px; /* margen interior */
     border-radius: 5px;
     display: inline-block;
+    
 }
 .boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
     background-color: rgb(44, 37, 27);
     color: #ff0000;
 }
 header ul li {
-    display: inline-block; /*una lista +
+    display: inline-block; /*una lista para q los botones esten orisontal */
+
 }
 
-
+h2 {
+    font-weight: 900;
+}
 
 
 
