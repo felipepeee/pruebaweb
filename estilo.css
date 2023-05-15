@@ -32,7 +32,9 @@ img {
     padding: 5px;
     /* margen interior */
     border-radius: 5px;
-    display: inline-block;
+    display:inline-block;
+    justify-content: center;
+
 
 }
 
@@ -51,8 +53,17 @@ header ul li {
 h2 {
     font-weight: 900;
 }
-ul{
+li {
     list-style: none;
-    justify-content: center;
+    justify-content: ;
 
+}
+
+/* alineación de img*/
+picture {
+    display: flex;
+    justify-content: center; /* centro una imagen */
+}
+main {
+    justify-content: center;
 }
